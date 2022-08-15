@@ -1,0 +1,127 @@
+h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {}
+        
+        section {
+            padding: 60px 0;
+            min-height: 100vh;
+        }
+        
+        a,
+        a:hover,
+        a:focus,
+        a:active {
+            text-decoration: none;
+            outline: none;
+        }
+        
+        a,
+        a:active,
+        a:focus {
+            color: #6f6f6f;
+            text-decoration: none;
+            transition-timing-function: ease-in-out;
+            -ms-transition-timing-function: ease-in-out;
+            -moz-transition-timing-function: ease-in-out;
+            -webkit-transition-timing-function: ease-in-out;
+            -o-transition-timing-function: ease-in-out;
+            transition-duration: .2s;
+            -ms-transition-duration: .2s;
+            -moz-transition-duration: .2s;
+            -webkit-transition-duration: .2s;
+            -o-transition-duration: .2s;
+        }
+        
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        img {
+    max-width: 100%;
+    height: auto;
+}
+.section-title h2 {
+    font-size: 36px;
+    font-weight: 700;
+    background-image: -webkit-linear-gradient(-30deg, #052157 0%, #91039f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 14px;
+}
+
+.newsletter {
+    padding: 16% 0 5%;
+    background: url(https://p4.wallpaperbetter.com/wallpaper/470/652/917/anime-naruto-naruto-uzumaki-sasuke-uchiha-wallpaper-preview.jpg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    min-height: 100vh;
+}
+  .newsletter:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(-30deg, #91039f 0%, #052157 100%);
+    opacity: .8;
+    z-index: -1; }
+  .newsletter .section-title {
+    margin-bottom: 59px; }
+    .newsletter .section-title h2 {
+      background-image: -webkit-linear-gradient(-30deg, #ffffff 0%, #ffffff 100%); }
+    .newsletter .section-title p {
+      color: #fff; }
+  .newsletter .newsletter-form {
+    background: -webkit-linear-gradient(-30deg, #91039f 0%, #052157 100%);
+    position: relative;
+    height: 60px;
+    z-index: 2; }
+    .newsletter .newsletter-form:after {
+      position: absolute;
+      content: '';
+      left: -2px;
+      right: -2px;
+      top: -2px;
+      bottom: -2px;
+      background: -webkit-linear-gradient(-30deg, #91039f 0%, #91039f 100%);
+      z-index: -1; }
+    .newsletter .newsletter-form input {
+      width: 100%;
+      height: 100%;
+      border: none;
+      padding: 30px;
+      background: #3f1667;
+      color: #fff;
+      padding-right: 200px; }
+      .newsletter .newsletter-form input::-webkit-input-placeholder {
+        color: #fff;
+        opacity: .6; }
+      .newsletter .newsletter-form input:-ms-input-placeholder {
+        color: #fff;
+        opacity: .6; }
+      .newsletter .newsletter-form input::-ms-input-placeholder {
+        color: #fff;
+        opacity: .6; }
+      .newsletter .newsletter-form input::placeholder {
+        color: #fff;
+        opacity: .6; }
+    .newsletter .newsletter-form button {
+      position: absolute;
+      top: -2px;
+      right: -2px;
+      bottom: -2px;
+      width: 170px;
+      background: -webkit-linear-gradient(-30deg, #91039f 0%, #052157 100%);
+      outline: none;
+      border: none;
+      color: #fff;
+      font-weight: 500;
+      cursor: pointer; }
+      .newsletter .newsletter-form button:hover {
+        background: -webkit-linear-gradient(-30deg, #052157 0%, #91039f 100%); }
